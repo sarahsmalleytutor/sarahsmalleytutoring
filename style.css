@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #23395d;
+    color: white;
+    padding: 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 280px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #23395d;
+}
+
+header h2 {
+    color: white;
+}
+
+.tagline {
+    font-weight: bold;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+}
+
+.columns {
+    display: flex;
+    gap: 50px;
+}
+
+.columns div {
+    flex: 1;
+}
+
+.testimonial {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 5px solid #23395d;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 800px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
