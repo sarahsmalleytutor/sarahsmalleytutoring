@@ -120,6 +120,19 @@ section {
     border-radius: 5px;
 }
 
+.testimonial h3 {
+    margin-top: 0;
+    color: #23395d;
+}
+
+.testimonial em {
+    color: #666666;
+}
+
+.testimonial p {
+    line-height: 1.8;
+}
+
 footer {
     text-align: center;
     padding: 25px;
