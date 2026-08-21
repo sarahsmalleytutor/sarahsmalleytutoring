@@ -23,11 +23,29 @@ nav {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 .nav-right a {
     margin-left: 20px;
     text-decoration: none;
     color: #23395d;
     font-weight: bold;
+}
+
+.nav-right a:hover {
+    color: #4d6fa3;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #23395d;
+    color: white !important;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+.nav-right a.contact-button:hover {
+    background-color: #4d6fa3;
+    color: white !important;
 }
 
 .nav-left {
@@ -36,21 +54,12 @@ nav {
     font-size: 1.1rem;
 }
 
-.contact-button {
-    background-color: #23395d;
-    color: white !important;
-    padding: 10px 18px;
-    border-radius: 6px;
-}
 
-.contact-button:hover {
-    background-color: #4d6fa3;
-    color: white !important;
-}
 
-nav a:hover {
-    color: #4d6fa3;
-}
+
+
+
+
 
 html {
     scroll-behavior: smooth;
