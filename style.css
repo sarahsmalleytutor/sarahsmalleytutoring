@@ -141,11 +141,12 @@ section {
 }
 
 .testimonial {
-    background: white;
-    padding: 25px;
-    margin-bottom: 25px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
     border-left: 5px solid #23395d;
-    border-radius: 5px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .testimonial h3 {
@@ -153,12 +154,12 @@ section {
     color: #23395d;
 }
 
-.testimonial em {
-    color: #666666;
-}
-
 .testimonial p {
     line-height: 1.8;
+}
+
+.testimonial p:last-child {
+    margin-bottom: 0;
 }
 
 footer {
