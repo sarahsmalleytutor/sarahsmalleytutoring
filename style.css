@@ -38,14 +38,14 @@ nav {
 
 .contact-button {
     background-color: #23395d;
-    color: white;
+    color: white !important;
     padding: 10px 18px;
     border-radius: 6px;
 }
 
 .contact-button:hover {
     background-color: #4d6fa3;
-    color: white;
+    color: white !important;
 }
 
 nav a:hover {
