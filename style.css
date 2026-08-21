@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-right a:hover {
-    color: #23395d;
+    color: #e8edf5;
 }
 
 .contact-button {
@@ -44,7 +44,7 @@ nav {
 }
 
 .nav-right a.contact-button:hover {
-    background-color: #23395d;
+    background-color: #e8edf5;
     color: white !important;
 }
 
