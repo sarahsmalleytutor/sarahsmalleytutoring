@@ -165,9 +165,21 @@ section {
     margin-bottom: 0;
 }
 
+
 footer {
     text-align: center;
-    padding: 25px;
+    padding: 30px 20px;
+    background-color: #23395d;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e8edf5;
 }
 
 @media (max-width: 800px) {
